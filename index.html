@@ -1,0 +1,57 @@
+<!-- 
+Lab 3 - Toy Car Product
+-->
+<!--started html code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Model Toy Car Showcase</title>
+
+<!-- Linked CSS here -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Model Toy Car Showcase</h1>
+
+<div class="container">
+
+    <!-- Toy Car Display -->
+    <div class="carCard">
+
+        <h2 id="carName"></h2>
+<!--properties of the care-->
+        <p><b>Brand:</b> <span id="brand"></span></p>
+        <p><b>Model:</b> <span id="model"></span></p>
+        <p><b>Color:</b> <span id="color"></span></p>
+        <p><b>Scale:</b> <span id="scale"></span></p>
+        <p><b>Material:</b> <span id="material"></span></p>
+        <p><b>Price:</b> $<span id="price"></span></p>
+        <p><b>Year:</b> <span id="year"></span></p>
+        <p><b>Stock:</b> <span id="stock"></span></p>
+        <p><b>Condition:</b> <span id="condition"></span></p>
+        <p><b>Category:</b> <span id="category"></span></p>
+
+    </div>
+
+</div>
+
+<!-- Interaction Section -->
+<div class="interaction">
+
+<h3>Update Car Color</h3>
+
+<input type="text" id="newColor" placeholder="Enter new color">
+
+<button onclick="changeColor()">Update Color</button>
+
+</div>
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
